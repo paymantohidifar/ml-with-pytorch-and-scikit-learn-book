@@ -1,2 +1,9 @@
 # Materials
 materials/
+
+# VS Code
+.vscode/
+
+# Pixi
+.pixi/
+!.pixi/config.toml
