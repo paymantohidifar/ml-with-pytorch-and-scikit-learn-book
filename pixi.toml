@@ -21,10 +21,12 @@ pixi-kernel = "*"
 scipy = ">=1.13.0"     
 scikit-learn = ">=1.8.0" 
 
+[feature.ml.pypi-dependencies]
+xgboost = ">=3.2.0, <4"
+
 [feature.dl.dependencies]
 pytorch-cpu = ">=2.10.0" 
 torchvision = ">=0.26.0" 
-
 
 [feature.dl.pypi-dependencies]
 tqdm = ">=4.67.3"
