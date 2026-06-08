@@ -103,7 +103,7 @@ where $\gamma$ is the baseline constant.
 
         $$F_m(x) = F_{m-1}(x) + \sum_{j=1}^{J_m} \gamma_m I(x \in R_{jm})$$
 
-        By setting $\nu$ to a small value ($0 \lt \nu \lt 1$), we prevent any single tree from completely dictating the model's path, forcing the ensemble to converge smoothly toward a stable global minimum.
+        By setting $\nu$ to a small value ($0 \lt \nu \lt 1$, 0.1 is a more common rate), we prevent any single tree from completely dictating the model's path, forcing the ensemble to converge smoothly toward a stable global minimum.
 
 * **Step 3: Output tree prediction**
 
