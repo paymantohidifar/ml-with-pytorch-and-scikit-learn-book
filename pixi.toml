@@ -23,6 +23,7 @@ scikit-learn = ">=1.8.0"
 
 [feature.ml.pypi-dependencies]
 xgboost = ">=3.2.0, <4"
+category-encoders = ">=2.10.0, <3"
 
 [feature.dl.dependencies]
 pytorch-cpu = ">=2.10.0" 
